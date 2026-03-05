@@ -97,7 +97,8 @@ git push -u 원격저장소주소 main 하면 됨
 
 git remote add 변수명 저장소주소 입력하면 변수로 지정
 
-원격저장소에 있던거 그대로 내려받으려면 git clone https: //원격저장소주소
+원격저장소에 있던 소스코드 그대로 내려받으려면 git clone https: //원격저장소주소
+
 
 \*저장소에 올리지 않는 파일들은 .gitignore에 명시
 
