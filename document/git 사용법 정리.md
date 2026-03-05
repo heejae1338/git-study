@@ -53,6 +53,24 @@ rebase, merge 하고 싶으면 새로운브랜치로 이동해서 git rebase 중
 
 squash and merge 하면 git merge --squash 새브랜치 하면 메인 브랜치의 로그 출력 시 깔끔함
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 - TypeScript
 
 async/await 존재 이유
