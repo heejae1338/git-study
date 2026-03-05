@@ -2,3 +2,5 @@
 
 변동사항이 있습니다 아마도?
 git diff로 확인해볼 계획
+
+이번 변경은 squash and merge 테스트
