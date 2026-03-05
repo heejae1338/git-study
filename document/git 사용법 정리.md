@@ -83,6 +83,27 @@ git reset --soft 커밋아이디 하면 a, c 파일은 남아있고 b 파일은 
 git reset --mixed 커밋아이디 하면 a, c 파일은 남아있고 b 파일은 staging 되지 않은 상태가 됨.
 (git add하고 commit)
 
+
+기본 브랜치 이름을 main으로 설정
+
+git branch -M main
+
+로컬저장소에서 원격저장소로 폴더를 업로드하고 싶다면
+
+git push -u 원격저장소주소 main 하면 됨
+
+-u는 방금 입력한 주소를 기억해두라는 뜻. 주소 길게 입력 안 하고 git push만 입력해도 동작
+
+주소는 변수로 저장 가능
+
+git remote add 변수명 저장소주소 입력하면 변수로 지정
+
+원격저장소에 있던거 그대로 내려받으려면 git clone https: //원격저장소주소
+
+*저장소에 올리지 않는 파일들은 .gitignore에 명시
+
+
+
 - TypeScript
 
 async/await 존재 이유
